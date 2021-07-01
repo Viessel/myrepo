@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.big-holder {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mid-holder {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+header {
+    background: #00669F;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -2rem;
+}
+
+h1 {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.foo-bar {
+    background: #D1891C;
+}
+
+.foo-bar p {
+    margin: 0 auto;
+    padding: 0.3rem;
+}
+
+/*MAIN*/
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD */
+
+.card {
+    max-width: 300px;
+    margin: 1rem;
+}
+
+.background {
+    background: #F3F3F3;
+    border-radius: 15px 15px 0px 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.foto {
+    border-radius: 70%;
+    max-width: 40%;
+    margin: 40% 30% 0% 0%;
+    align-self: flex-end;
+}
+
+.like {
+    align-self: flex-start;
+    max-width: 10%;
+    margin: 5%;
+}
+
+.card-text {
+    background: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-name {
+    font-family: Roboto;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card-text p{
+    font-family: Roboto;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    margin: 1rem 1.5rem;
+}
+
+.card-text a {
+    background: #00669F;
+    border-radius: 0.3rem;
+    color: white;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    margin: 1rem auto;
+
+}
+
+.batman {
+    background-image: url('../img/batman-background.png');
+}
+
+.mujer-maravilla {
+    background-image: url('../img/fondo-mm.png');
+}
+
+.superman {
+    background-image: url('../img/fondo-sm.png');
+}
+
+.harley {
+    background-image: url('../img/fondo-hq.png');
+}
+
+/*FOOTER*/
+footer {
+    background: #00669F;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
